@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-dark">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
+	<title>Number Guesser</title>
+</head>
+<body>
+	<div class="hero-body">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-half modal-card">
+						<h1 class="title is-1 has-text-light">Number Guesser</h1>
+						<form id="game">
+							<p class="subtitle has-text-light">Guess a number between <span class="min-num">1</span> and <span class="max-num">10</span></p>
+							<div class="field is-grouped">
+								<div class="control">
+										<input type="number" class="input is-medium has-text-dark has-background-light" id="guess-input">
+								</div>
+								<div class="control">
+										<input type="submit" class="button is-medium is-primary" id="guess-value" value="Submit">
+								</div>
+							</div>
+							<p class="message subtitle has-text-light"></p>
+						</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
