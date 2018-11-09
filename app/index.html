@@ -13,18 +13,20 @@
 			<div class="columns">
 				<div class="column is-half modal-card">
 						<h1 class="title is-1 has-text-light">Number Guesser</h1>
-						<form id="game">
-							<p class="subtitle has-text-light">Guess a number between <span class="min-num">1</span> and <span class="max-num">10</span></p>
+						<div id="game">
+							<p class="subtitle has-text-light">Guess a number between 
+								<span class="min-num"></span> and <span class="max-num"></span>
+							</p>
 							<div class="field is-grouped">
 								<div class="control">
-										<input type="number" class="input is-medium has-text-dark has-background-light" id="guess-input">
+									<input type="number" class="input has-text-dark" id="guess-input" placeholder="Enter Your Guess...">
 								</div>
 								<div class="control">
-										<input type="submit" class="button is-medium is-primary" id="guess-value" value="Submit">
+										<input type="button" class="button is-link" id="guess-btn" value="Submit">
 								</div>
 							</div>
-							<p class="message subtitle has-text-light"></p>
-						</form>
+							<p class="message has-background-dark subtitle"></p>
+						</div>
 				</div>
 			</div>
 		</div>
